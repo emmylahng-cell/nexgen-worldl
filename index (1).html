@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NEXGEN WORLD – Building the Future of Digital Success. Premium Shopify, Web Development, Graphic Design, AI Automation & Digital Marketing services." />
+  <meta name="keywords" content="Shopify, Web Development, Digital Marketing, AI Automation, Graphic Design, E-commerce" />
+  <meta property="og:title" content="NEXGEN WORLD – Building the Future of Digital Success" />
+  <meta property="og:description" content="We help businesses grow online with premium digital services." />
+  <title>NEXGEN WORLD – Building the Future of Digital Success</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-inner">
+      <svg class="loader-globe" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="44" fill="none" stroke="#c9a227" stroke-width="2" />
+        <ellipse cx="50" cy="50" rx="20" ry="44" fill="none" stroke="#c9a227" stroke-width="1.5" />
+        <line x1="6" y1="50" x2="94" y2="50" stroke="#c9a227" stroke-width="1.5" />
+        <line x1="50" y1="6" x2="50" y2="94" stroke="#c9a227" stroke-width="1.5" />
+        <ellipse cx="50" cy="50" rx="44" ry="15" fill="none" stroke="#c9a227" stroke-width="1.2" />
+        <ellipse cx="50" cy="50" rx="44" ry="32" fill="none" stroke="#c9a227" stroke-width="1" opacity="0.5" />
+      </svg>
+      <p class="loader-text">NEXGEN WORLD</p>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <button id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/233559206394" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="whatsapp-pulse"></span>
+  </a>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <svg class="logo-globe" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="25" cy="25" r="22" fill="none" stroke="#c9a227" stroke-width="1.8" />
+          <ellipse cx="25" cy="25" rx="10" ry="22" fill="none" stroke="#c9a227" stroke-width="1.3" />
+          <line x1="3" y1="25" x2="47" y2="25" stroke="#c9a227" stroke-width="1.3" />
+          <ellipse cx="25" cy="25" rx="22" ry="8" fill="none" stroke="#c9a227" stroke-width="1.1" />
+        </svg>
+        <span>NEXGEN<span class="logo-world"> WORLD</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#why" class="nav-link">Why Us</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="themeToggle" aria-label="Toggle theme">
+          <i class="fas fa-sun" id="themeIcon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <canvas id="heroCanvas"></canvas>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <i class="fas fa-bolt"></i> Premium Digital Agency
+      </div>
+      <h1 class="hero-title reveal">
+        Building the Future<br/>
+        of <span class="gold-text">Digital Success</span>
+      </h1>
+      <p class="hero-sub reveal">
+        We empower businesses to dominate the digital landscape through cutting-edge design,
+        development, and AI-powered marketing strategies that convert and scale.
+      </p>
+      <div class="hero-btns reveal">
+        <a href="#services" class="btn btn-primary">Get Started <i class="fas fa-arrow-right"></i></a>
+        <a href="#contact" class="btn btn-outline">Contact Us</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <span class="counter" data-target="250">0</span><span>+</span>
+          <p>Projects Done</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="counter" data-target="98">0</span><span>%</span>
+          <p>Client Satisfaction</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="counter" data-target="5">0</span><span>+</span>
+          <p>Years Experience</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="counter" data-target="40">0</span><span>+</span>
+          <p>Countries Served</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-globe-wrap">
+      <div class="globe-3d">
+        <svg class="hero-globe-svg" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <radialGradient id="globeGrad" cx="40%" cy="40%">
+              <stop offset="0%" stop-color="#1a3a6e" />
+              <stop offset="100%" stop-color="#050d1f" />
+            </radialGradient>
+          </defs>
+          <circle cx="150" cy="150" r="140" fill="url(#globeGrad)" />
+          <circle cx="150" cy="150" r="140" fill="none" stroke="#c9a227" stroke-width="2" />
+          <ellipse cx="150" cy="150" rx="60" ry="140" fill="none" stroke="#c9a227" stroke-width="1.2" opacity="0.7" />
+          <ellipse cx="150" cy="150" rx="100" ry="140" fill="none" stroke="#c9a227" stroke-width="0.8" opacity="0.4" />
+          <line x1="10" y1="150" x2="290" y2="150" stroke="#c9a227" stroke-width="1.2" opacity="0.6" />
+          <line x1="150" y1="10" x2="150" y2="290" stroke="#c9a227" stroke-width="1.2" opacity="0.6" />
+          <ellipse cx="150" cy="150" rx="140" ry="45" fill="none" stroke="#c9a227" stroke-width="1" opacity="0.5" />
+          <ellipse cx="150" cy="150" rx="140" ry="90" fill="none" stroke="#c9a227" stroke-width="0.8" opacity="0.3" />
+          <ellipse cx="150" cy="150" rx="140" ry="20" fill="none" stroke="#c9a227" stroke-width="0.8" opacity="0.4" />
+          <circle cx="90" cy="120" r="4" fill="#c9a227" opacity="0.9" />
+          <circle cx="185" cy="100" r="3" fill="#c9a227" opacity="0.7" />
+          <circle cx="210" cy="170" r="4" fill="#c9a227" opacity="0.9" />
+          <circle cx="130" cy="200" r="3" fill="#c9a227" opacity="0.6" />
+          <circle cx="60" cy="180" r="3" fill="#c9a227" opacity="0.7" />
+          <circle cx="240" cy="130" r="3" fill="#c9a227" opacity="0.8" />
+        </svg>
+        <div class="globe-ring ring-1"></div>
+        <div class="globe-ring ring-2"></div>
+        <div class="globe-ring ring-3"></div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What We Do</span>
+        <h2>Our <span class="gold-text">Premium Services</span></h2>
+        <p>End-to-end digital solutions crafted to scale your business globally.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card glass reveal" data-delay="0">
+          <div class="service-icon"><i class="fab fa-shopify"></i></div>
+          <h3>Shopify Store Design</h3>
+          <p>High-converting, visually stunning Shopify stores tailored to your brand identity and optimized for maximum sales.</p>
+          <ul class="service-list">
+            <li><i class="fas fa-check"></i> Custom theme development</li>
+            <li><i class="fas fa-check"></i> Conversion optimization</li>
+            <li><i class="fas fa-check"></i> Mobile-first design</li>
+          </ul>
+          <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card glass reveal" data-delay="100">
+          <div class="service-icon"><i class="fas fa-code"></i></div>
+          <h3>Website Development</h3>
+          <p>Fast, secure, and scalable websites built with modern technologies that leave a lasting impression.</p>
+          <ul class="service-list">
+            <li><i class="fas fa-check"></i> React / Next.js / WordPress</li>
+            <li><i class="fas fa-check"></i> SEO-optimized structure</li>
+            <li><i class="fas fa-check"></i> Performance & security</li>
+          </ul>
+          <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card glass reveal" data-delay="200">
+          <div class="service-icon"><i class="fas fa-palette"></i></div>
+          <h3>Graphic Design</h3>
+          <p>Premium brand visuals — logos, social media kits, and marketing materials that make your brand unforgettable.</p>
+          <ul class="service-list">
+            <li><i class="fas fa-check"></i> Logo & brand identity</li>
+            <li><i class="fas fa-check"></i> Social media creatives</li>
+            <li><i class="fas fa-check"></i> Print & digital assets</li>
+          </ul>
+          <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card glass reveal" data-delay="0">
+          <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Digital Marketing</h3>
+          <p>Data-driven campaigns across SEO, PPC, email, and social that generate real, measurable ROI.</p>
+          <ul class="service-list">
+            <li><i class="fas fa-check"></i> SEO & content strategy</li>
+            <li><i class="fas fa-check"></i> Paid advertising (Meta, Google)</li>
+            <li><i class="fas fa-check"></i> Analytics & reporting</li>
+          </ul>
+          <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card glass reveal featured-service" data-delay="100">
+          <div class="service-badge">Most Popular</div>
+          <div class="service-icon"><i class="fas fa-robot"></i></div>
+          <h3>AI Automation</h3>
+          <p>Leverage cutting-edge AI to automate workflows, customer support, lead generation, and business processes.</p>
+          <ul class="service-list">
+            <li><i class="fas fa-check"></i> Chatbot & AI assistants</li>
+            <li><i class="fas fa-check"></i> Workflow automation</li>
+            <li><i class="fas fa-check"></i> AI-powered analytics</li>
+          </ul>
+          <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card glass reveal" data-delay="200">
+          <div class="service-icon"><i class="fas fa-store"></i></div>
+          <h3>E-commerce Consulting</h3>
+          <p>Strategic consulting to launch, optimize, and scale your online store for long-term profitable growth.</p>
+          <ul class="service-list">
+            <li><i class="fas fa-check"></i> Market research & strategy</li>
+            <li><i class="fas fa-check"></i> Platform selection & migration</li>
+            <li><i class="fas fa-check"></i> Growth roadmapping</li>
+          </ul>
+          <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Our Work</span>
+        <h2>Featured <span class="gold-text">Projects</span></h2>
+        <p>A glimpse into some of our most impactful digital work.</p>
+      </div>
+      <div class="portfolio-filter reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Dev</button>
+        <button class="filter-btn" data-filter="shopify">Shopify</button>
+        <button class="filter-btn" data-filter="branding">Branding</button>
+        <button class="filter-btn" data-filter="marketing">Marketing</button>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-card reveal" data-category="shopify">
+          <div class="portfolio-img">
+            <div class="portfolio-placeholder" style="--hue:220">
+              <i class="fab fa-shopify"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Shopify</span>
+              <h4>LuxeThreads Store</h4>
+              <p>Custom Shopify store with 3x conversion lift</p>
+              <a href="#contact" class="btn btn-sm">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card reveal" data-category="web">
+          <div class="portfolio-img">
+            <div class="portfolio-placeholder" style="--hue:200">
+              <i class="fas fa-globe"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Web Dev</span>
+              <h4>FinEdge Platform</h4>
+              <p>Full-stack fintech dashboard & landing page</p>
+              <a href="#contact" class="btn btn-sm">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card reveal" data-category="branding">
+          <div class="portfolio-img">
+            <div class="portfolio-placeholder" style="--hue:40">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Branding</span>
+              <h4>NovaHealth Rebrand</h4>
+              <p>Complete brand identity & visual system</p>
+              <a href="#contact" class="btn btn-sm">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card reveal" data-category="marketing">
+          <div class="portfolio-img">
+            <div class="portfolio-placeholder" style="--hue:160">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Marketing</span>
+              <h4>GrowthMax Campaign</h4>
+              <p>450% ROI across paid social & SEO</p>
+              <a href="#contact" class="btn btn-sm">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card reveal" data-category="web">
+          <div class="portfolio-img">
+            <div class="portfolio-placeholder" style="--hue:260">
+              <i class="fas fa-robot"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">AI Automation</span>
+              <h4>SmartDesk AI</h4>
+              <p>AI support bot reducing ticket volume by 70%</p>
+              <a href="#contact" class="btn btn-sm">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card reveal" data-category="shopify">
+          <div class="portfolio-img">
+            <div class="portfolio-placeholder" style="--hue:10">
+              <i class="fas fa-shopping-bag"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">E-commerce</span>
+              <h4>OrganicRoots Shop</h4>
+              <p>Shopify + email funnel: $200K first-year revenue</p>
+              <a href="#contact" class="btn btn-sm">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section id="why" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Our Advantage</span>
+        <h2>Why Choose <span class="gold-text">NEXGEN WORLD</span></h2>
+        <p>We don't just deliver projects — we deliver transformations.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card glass reveal" data-delay="0">
+          <div class="why-icon"><i class="fas fa-bolt"></i></div>
+          <h3>Fast Delivery</h3>
+          <p>We move with urgency. Most projects delivered on or ahead of schedule without compromising quality.</p>
+        </div>
+        <div class="why-card glass reveal" data-delay="100">
+          <div class="why-icon"><i class="fas fa-gem"></i></div>
+          <h3>Premium Quality</h3>
+          <p>Every pixel, line of code, and word crafted to world-class standards. Nothing ships that isn't exceptional.</p>
+        </div>
+        <div class="why-card glass reveal" data-delay="200">
+          <div class="why-icon"><i class="fas fa-headset"></i></div>
+          <h3>24/7 Support</h3>
+          <p>Your dedicated success manager is always available. Real humans, real help — day or night.</p>
+        </div>
+        <div class="why-card glass reveal" data-delay="300">
+          <div class="why-icon"><i class="fas fa-trophy"></i></div>
+          <h3>Proven Results</h3>
+          <p>250+ successful projects and 98% client satisfaction backed by real metrics and case studies.</p>
+        </div>
+      </div>
+      <div class="brand-marquee reveal">
+        <div class="marquee-track">
+          <span>Shopify</span><span>•</span>
+          <span>React</span><span>•</span>
+          <span>WordPress</span><span>•</span>
+          <span>Google Ads</span><span>•</span>
+          <span>Meta Ads</span><span>•</span>
+          <span>OpenAI</span><span>•</span>
+          <span>Figma</span><span>•</span>
+          <span>Next.js</span><span>•</span>
+          <span>Shopify</span><span>•</span>
+          <span>React</span><span>•</span>
+          <span>WordPress</span><span>•</span>
+          <span>Google Ads</span><span>•</span>
+          <span>Meta Ads</span><span>•</span>
+          <span>OpenAI</span><span>•</span>
+          <span>Figma</span><span>•</span>
+          <span>Next.js</span><span>•</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Client Love</span>
+        <h2>What Our <span class="gold-text">Clients Say</span></h2>
+        <p>Real words from real clients who've seen real results.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card glass reveal">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"NEXGEN WORLD completely transformed our Shopify store. Sales tripled within 60 days. Their attention to detail and strategic thinking is unmatched in the industry."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="--color:#c9a227">SK</div>
+            <div>
+              <strong>Sarah Kowalski</strong>
+              <span>CEO, LuxeThreads Co.</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card glass reveal featured-testimonial">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"We hired them for AI automation and the results were staggering. Our support ticket volume dropped 70% and customer satisfaction went up. Absolute game-changers."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="--color:#1a56db">MO</div>
+            <div>
+              <strong>Marcus Osei</strong>
+              <span>Founder, SmartDesk Technologies</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card glass reveal">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"From branding to digital marketing, NEXGEN WORLD handled everything flawlessly. Professional, fast, and incredibly creative. Our revenue grew 450% in one year."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="--color:#16a34a">PN</div>
+            <div>
+              <strong>Priya Nair</strong>
+              <span>Marketing Director, GrowthMax</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Transparent Pricing</span>
+        <h2>Choose Your <span class="gold-text">Plan</span></h2>
+        <p>Flexible pricing designed to fit every stage of your business growth.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card glass reveal">
+          <div class="pricing-tier">Starter</div>
+          <div class="pricing-price"><span class="currency">$</span>499<span class="period">/project</span></div>
+          <p class="pricing-desc">Perfect for small businesses launching their digital presence.</p>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check"></i> 5-Page Website or Basic Shopify Store</li>
+            <li><i class="fas fa-check"></i> Logo + Basic Branding</li>
+            <li><i class="fas fa-check"></i> SEO Setup</li>
+            <li><i class="fas fa-check"></i> Mobile Responsive Design</li>
+            <li><i class="fas fa-check"></i> 1 Month Support</li>
+            <li class="disabled"><i class="fas fa-times"></i> AI Automation</li>
+            <li class="disabled"><i class="fas fa-times"></i> Marketing Campaigns</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline btn-full">Get Started</a>
+        </div>
+        <div class="pricing-card glass reveal featured-pricing">
+          <div class="pricing-badge">Most Popular</div>
+          <div class="pricing-tier">Professional</div>
+          <div class="pricing-price"><span class="currency">$</span>1,499<span class="period">/project</span></div>
+          <p class="pricing-desc">For growing brands that need a full digital ecosystem.</p>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check"></i> Custom Website + Shopify Store</li>
+            <li><i class="fas fa-check"></i> Full Brand Identity Pack</li>
+            <li><i class="fas fa-check"></i> Advanced SEO + Content</li>
+            <li><i class="fas fa-check"></i> Social Media Setup</li>
+            <li><i class="fas fa-check"></i> Basic AI Chatbot</li>
+            <li><i class="fas fa-check"></i> 3 Months Support</li>
+            <li class="disabled"><i class="fas fa-times"></i> Paid Ad Campaigns</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary btn-full">Get Started</a>
+        </div>
+        <div class="pricing-card glass reveal">
+          <div class="pricing-tier">Enterprise</div>
+          <div class="pricing-price"><span class="currency">$</span>3,999<span class="period">/project</span></div>
+          <p class="pricing-desc">Full-scale digital transformation for high-growth companies.</p>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check"></i> Everything in Professional</li>
+            <li><i class="fas fa-check"></i> Advanced AI Automation Suite</li>
+            <li><i class="fas fa-check"></i> Paid Advertising Management</li>
+            <li><i class="fas fa-check"></i> E-commerce Strategy & Consulting</li>
+            <li><i class="fas fa-check"></i> Dedicated Account Manager</li>
+            <li><i class="fas fa-check"></i> 6 Months Priority Support</li>
+            <li><i class="fas fa-check"></i> Monthly Performance Reports</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline btn-full">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">FAQ</span>
+        <h2>Frequently Asked <span class="gold-text">Questions</span></h2>
+        <p>Quick answers to the questions we hear most often.</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            How long does a typical project take?
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Project timelines vary by scope. A basic website takes 5–10 business days. A full e-commerce + branding package typically runs 3–6 weeks. We'll give you a precise timeline during your free consultation.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Do you offer ongoing maintenance?
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! All plans include post-launch support. We also offer monthly retainer packages for ongoing updates, security, SEO, and performance monitoring.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            What industries do you specialize in?
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>We work across e-commerce, fashion, health & wellness, fintech, SaaS, food & beverage, real estate, and more. Our team adapts to any industry with tailored strategies.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Can you work with an existing brand or site?
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. We handle redesigns, migrations, and brand refreshes just as often as new builds. We'll audit your current setup and recommend the most impactful improvements.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            How do I get started?
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Simply fill out our contact form below or click the WhatsApp button to chat directly. We'll schedule a free 30-minute discovery call to understand your goals and recommend the right solution.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Do you offer payment plans?
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes — we offer 50/50 split payments (50% to start, 50% on completion) and flexible monthly installment plans for Enterprise clients. We want to make premium digital services accessible.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Let's Talk</span>
+        <h2>Start Your <span class="gold-text">Project</span></h2>
+        <p>Ready to grow? We're ready to build. Let's create something extraordinary together.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <strong>Email Us</strong>
+              <p>hello@nexgenworld.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+            <div>
+              <strong>WhatsApp</strong>
+              <p>+233 559 206 394</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <strong>Response Time</strong>
+              <p>Within 2 hours</p>
+            </div>
+          </div>
+          <a href="https://wa.me/233559206394" target="_blank" class="btn btn-whatsapp">
+            <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+          </a>
+        </div>
+        <form class="contact-form glass reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" placeholder="John Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="john@company.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service">
+              <option value="">— Select a service —</option>
+              <option>Shopify Store Design</option>
+              <option>Website Development</option>
+              <option>Graphic Design</option>
+              <option>Digital Marketing</option>
+              <option>AI Automation</option>
+              <option>E-commerce Consulting</option>
+              <option>Full Package</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="budget">Budget Range</label>
+            <select id="budget">
+              <option value="">— Select budget —</option>
+              <option>Under $500</option>
+              <option>$500 – $1,500</option>
+              <option>$1,500 – $4,000</option>
+              <option>$4,000+</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell Us About Your Project</label>
+            <textarea id="message" rows="4" placeholder="Describe your goals, timeline, and any specific requirements..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+          <p class="form-note">We'll respond within 2 hours during business hours.</p>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i>
+            <p>Message sent! We'll be in touch shortly.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">
+            <svg class="logo-globe" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="25" cy="25" r="22" fill="none" stroke="#c9a227" stroke-width="1.8" />
+              <ellipse cx="25" cy="25" rx="10" ry="22" fill="none" stroke="#c9a227" stroke-width="1.3" />
+              <line x1="3" y1="25" x2="47" y2="25" stroke="#c9a227" stroke-width="1.3" />
+              <ellipse cx="25" cy="25" rx="22" ry="8" fill="none" stroke="#c9a227" stroke-width="1.1" />
+            </svg>
+            <span>NEXGEN<span class="logo-world"> WORLD</span></span>
+          </a>
+          <p>Building the Future of Digital Success — one project at a time.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/233559206394" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#services">Shopify Design</a></li>
+              <li><a href="#services">Web Development</a></li>
+              <li><a href="#services">Graphic Design</a></li>
+              <li><a href="#services">Digital Marketing</a></li>
+              <li><a href="#services">AI Automation</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#why">About Us</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#testimonials">Reviews</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="https://wa.me/233559206394" target="_blank">WhatsApp</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="#">Twitter / X</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 NEXGEN WORLD. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
